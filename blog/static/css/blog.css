@@ -1,0 +1,88 @@
+body {
+    font-family: 'Spectral', serif;
+    font-size: 1rem;
+    color: black;
+    line-height: 1.25rem;
+}
+a {
+    text-decoration: none;
+}
+p{
+    margin: initial
+}
+header, .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+header {
+    position: relative;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header {
+    color: gold;
+    line-height: .15rem;
+    text-align: center;
+    margin: initial;
+}
+.blog-title {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 2.5rem;
+    color: white;
+    margin: initial;
+    font-weight: 700;
+    font-size: 2.25rem;
+
+}
+article {
+    padding: 0 2.5rem
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6rem 0 3rem
+
+}
+.article {
+    width: calc(50% - 5rem);
+    margin: 2rem 0
+}
+.article-title {
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: initial;
+}
+.published {
+    font-weight: 300;
+    font-style: italic;
+    margin: .75rem 0 .5rem;
+    font-size: .8rem;
+}
+.text {
+    font-size: 1.1rem;
+}
+.post {
+    padding: 0 3rem;
+}
+.post-title {
+    color: black;
+    font-weight: 700;
+    font-size: 4rem;
+    margin: 4rem 0 0;
+}
+.post-published {
+    font-weight: 300;
+    font-style: italic;
+    margin: 2.5rem 0 1rem;
+    font-size: 1rem;
+}
+.post-text {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
