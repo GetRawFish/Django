@@ -6,12 +6,12 @@
     <title>Django blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Spectral:300,300i,400,400i,700,700i,800,800i&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 </head>
 <body>
     <div class="fixed">
         <header>
+            
             <p class="header">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odio, nemo eligendi ratione ipsa tempore sint asperiores laudantium culpa sed magnam. Vel officia laborum excepturi quis maxime, voluptatem consectetur provident mollitia repellat, culpa quisquam, obcaecati sunt quod. Earum asperiores quod expedita aliquam? Sapiente, praesentium laboriosam hic at ipsa quod sunt, vero tempore nisi sed architecto neque adipisci magnam ipsum aliquam dolore reprehenderit esse incidunt ad molestias doloremque pariatur error. Quas labore quibusdam, cum nisi temporibus vero dignissimos voluptates ipsam illo a consectetur aspernatur iure, molestiae aperiam minima odit odio placeat obcaecati ipsum! Ipsa, alias architecto! Eos consectetur quaerat culpa voluptas possimus! Laborum rem ipsum magnam maxime repellat ullam voluptates temporibus, unde possimus minus dignissimos dolorum facere vel tempore officia corporis autem quibusdam sunt voluptatibus dolorem beatae modi soluta assumenda! Exercitationem architecto sunt suscipit, nobis error ipsum fugit modi incidunt iure quidem sint iusto quos commodi doloribus quisquam maiores! Repellendus, numquam. Saepe, tempora. Exercitationem ullam laboriosam, possimus non aperiam rerum voluptatibus cum perferendis voluptas molestiae quam officia. Quaerat fuga, accusamus soluta porro reprehenderit distinctio incidunt quam aliquid commodi error consequuntur ipsam architecto nemo voluptates cum ad ea quod suscipit assumenda fugit nesciunt esse est? Possimus distinctio laborum adipisci, laudantium nihil dolore.
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque quis eum ratione doloremque eveniet blanditiis qui esse debitis neque fugit deserunt optio, quidem nesciunt deleniti corrupti dicta ipsum excepturi alias, repellendus vel harum. Accusamus ipsam, molestiae eius ipsa repudiandae suscipit obcaecati autem eligendi excepturi error mollitia amet temporibus ut tenetur officia dignissimos cum quo ullam quae velit id tempore! Magni sequi eaque maxime quaerat explicabo inventore quam eligendi, deleniti provident cupiditate. Asperiores quasi, modi laborum fugit officiis ipsum repellendus sunt perferendis fuga voluptates accusamus fugiat voluptatem vitae! Maxime debitis cupiditate numquam temporibus, harum rerum mollitia id cum beatae omnis voluptates eius non, repellat obcaecati incidunt voluptas dicta fugit ab fuga eum. Delectus exercitationem aut corrupti, dolore eaque ea quas nulla suscipit atque debitis ab? Rem earum, eos quae est quidem expedita quasi, possimus doloribus aspernatur itaque necessitatibus totam? Eius quae animi adipisci praesentium aliquid quas suscipit id pariatur voluptatum dolore maiores quam incidunt, soluta vero nulla quia quaerat aperiam distinctio neque corrupti earum modi nisi sit blanditiis. Tenetur mollitia facere quo quia, exercitationem voluptatum unde cum eos, rerum cupiditate sed harum voluptate, nemo voluptates et! Optio ipsa inventore necessitatibus, magnam reprehenderit laudantium eius ad nihil ipsam sit voluptatem iusto! Repudiandae!
@@ -20,6 +20,12 @@
                 <h1 class="blog-title">
                     Django girls blog
                 </h1>
+            </a>
+            <a href="{% url 'post_new' %}" class="add-post">
+                +
+                <span class="add-post-text">
+                    add new
+                </span>
             </a>
         </header>
     </div>
